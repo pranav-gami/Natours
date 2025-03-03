@@ -1,0 +1,292 @@
+/* BREAK-POINT (112.5EM)*/
+
+@media (min-width:112.5em) {
+    html {
+        font-size: 75%;
+    }
+
+}
+
+/* BREAKPOINT (90EM) */
+
+@media (min-width:90em) {
+
+    .about_content,
+    .features,
+    .tours__content,
+    .feedback_container,
+    .booking_container,
+    .footer_content {
+        max-width: 115rem;
+    }
+}
+
+/* BREAKPOINT (1200px) */
+
+@media (max-width:75em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .heading__secondary {
+        font-size: 3rem;
+    }
+
+    .tour__card-side {
+        height: 48rem;
+    }
+
+    .tour__card-pic {
+        height: 21rem;
+    }
+
+    .tour__card-details {
+        padding: 2rem;
+    }
+
+    .tour__card-heading {
+        top: 11rem;
+    }
+
+    .book_form {
+        width: 70%;
+    }
+
+    .features {
+        gap: 5rem;
+    }
+
+    .tours__content {
+        max-width: 98%;
+        gap: 5rem;
+    }
+
+    .about_content,
+    .features,
+    .feedback_container,
+    .booking_container,
+    .footer_content {
+        max-width: 96%;
+    }
+
+    .footer_content {
+        gap: 12rem;
+    }
+}
+
+@media (max-width:56.25em) {
+    html {
+        font-size: 50%;
+    }
+
+    .about {
+        padding: 21rem 0 25rem 0;
+    }
+
+    .about_content {
+        max-width: 50%;
+        grid-template-columns: 1fr;
+    }
+
+    .about_img-box .about__photo {
+        width: 35%;
+    }
+
+    .photo-1 {
+        left: 10%;
+        top: -2rem;
+    }
+
+    .photo-2 {
+        right: 10%;
+        top: -2rem;
+    }
+
+    .photo-3 {
+        left: 30%;
+        top: -4rem;
+    }
+
+    .section_feature {
+        padding: 10rem 0;
+        margin-top: -8rem;
+    }
+
+    .features {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .section__tours {
+        padding: 15rem 0 10rem 0;
+    }
+
+    .tours__content {
+        grid-template-columns: 1fr;
+    }
+
+    .tours__card {
+        width: 45rem;
+        margin: 0 auto;
+    }
+
+    .tour__card-heading {
+        top: 12rem;
+    }
+}
+
+/* BREAKPOINT 768PX */
+
+@media(max-width:48em) {
+
+    .heading__primary-main {
+        letter-spacing: 2.5rem;
+    }
+
+    .heading__primary-sub {
+        letter-spacing: 1.35rem;
+    }
+
+    .heading__secondary {
+        font-size: 2.8rem;
+    }
+
+    .about_content {
+        max-width: 50rem;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .feature__item {
+        max-width: 45rem;
+        margin: 0 auto;
+    }
+
+    .book_block {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .book_form {
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .form_group_radio {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer_content {
+        max-width: 60%;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    .footer_text {
+        max-width: 100%;
+        justify-self: center;
+    }
+}
+
+/* BREAKPOINT 600 px */
+
+@media (max-width:37.5em) {
+
+    body {
+        padding: 0;
+    }
+
+    .header {
+        clip-path: polygon(0px 0px, 100% 0px, 100% 85vh, 0px 100%);
+    }
+
+    .navigation__button,
+    .navigation__bg {
+        top: 3rem;
+        right: 3rem
+    }
+
+    .heading__primary-main {
+        letter-spacing: 1rem;
+        font-size: 5rem;
+    }
+
+    .heading__primary-sub {
+        letter-spacing: 0.5rem;
+    }
+
+    .heading__secondary {
+        font-size: 2.5rem;
+    }
+
+    .section__heading {
+        margin-bottom: 5rem !important;
+    }
+
+    .about_content {
+        max-width: 45rem;
+    }
+
+    .section__tours {
+        padding: 25rem 0 10rem 0;
+    }
+
+    .section__feedback {
+        padding: 10rem 0;
+    }
+
+    .section_booking {
+        padding: 10rem 0;
+    }
+
+    .feedback_item {
+        transform: skewX(0);
+        width: 90%;
+    }
+
+    .feedback_item>* {
+        transform: skewX(0);
+    }
+
+    .book_block {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer_content {
+        max-width: 45rem;
+    }
+
+    .footer_list {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        padding: 7rem;
+    }
+}
+
+/* BREAKPOINT: 400PX (25EM) */
+
+@media (max-width:25em) {
+
+    .about_content {
+        max-width: 38rem;
+    }
+
+    .feature__item {
+        max-width: 38rem;
+        margin: 0 auto;
+    }
+
+    .tours__card {
+        max-width: 38rem;
+    }
+
+    .book_block {
+        width: 88%;
+    }
+}
